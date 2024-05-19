@@ -1,0 +1,41 @@
+/* Reset margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the navigation bar */
+.nav {
+    background-color: #7b66a6; /* Light grey background */
+    width: 100%; /* Full width */
+    height: 10vh; /* 10% of viewport height */
+    color: #eceef1; /* Blue text color */
+    font-size: 25px; /* Large font size */
+}
+
+/* Float elements to the left */
+.left {
+    float: left;
+}
+
+/* Float elements to the right and display flex */
+.right {
+    display: flex;
+    float: right;
+}
+
+/* Adds a small top margin */
+.margintop {
+    margin-top: 3px;
+}
+
+/* Absolute positioning for date elements with a higher stacking order */
+.date_position {
+    position: absolute;
+    z-index: 1; /* Ensures the element appears above others */
+}
+
+/* Changes cursor to pointer on hover for interactive elements */
+.hovering:hover {
+    cursor: pointer;
+}
